@@ -1,16 +1,16 @@
-# SC-300 Lab Screenshots
-
-This folder contains all screenshots from the Windows 11 SC-300 Identity & Access Management Lab.
-
+# Identity & Access Governance Lab Screenshots
+ 
+This folder contains all screenshots from the Entra ID Identity & Access Governance Lab.
+ 
 ---
-
+ 
 ## Screenshot Index
-
+ 
 | # | File Name | Description |
 |---|-----------|-------------|
 | 01 | `existing-compliant-devices-policy.png` | Existing Conditional Access policy requiring compliant devices |
 | 02 | `licenses-entra-id-p2-intune.png` | Entra ID P2 and Intune Plan 1 licenses |
-| 03 | `tenant-overview.png` | Tenant ID and primary domain (Lani644.onmicrosoft.com) |
+| 03 | `tenant-overview.png` | Tenant overview (tenant ID and domain redacted) |
 | 04 | `intune-tenant-status.png` | Intune tenant status with 1 enrolled device |
 | 05 | `ca-overview-page.png` | Conditional Access overview page |
 | 06 | `mfa-policy-exclude-admin.png` | MFA Registration policy - excluding admin user |
@@ -62,11 +62,11 @@ This folder contains all screenshots from the Windows 11 SC-300 Identity & Acces
 | 52 | `access-review-summary.png` | Access Review - Confirm + create |
 | 53 | `access-review-created.png` | Access Review - Created successfully |
 | 54 | `final-all-policies-on.png` | FINAL - All 4 Conditional Access policies ON |
-
+ 
 ---
-
+ 
 ## Lab Components Summary
-
+ 
 | Component | Status |
 |-----------|--------|
 | Entra ID P2 License | ✅ Active |
@@ -80,11 +80,11 @@ This folder contains all screenshots from the Windows 11 SC-300 Identity & Acces
 | PIM Configuration | ✅ Active |
 | Access Package | ✅ Created |
 | Access Review | ✅ Created |
-
+ 
 ---
-
+ 
 ## Skills Demonstrated
-
+ 
 - ✅ MFA Configuration & Registration Policy
 - ✅ Conditional Access (4 policies)
 - ✅ Identity Protection (User & Sign-in Risk)
@@ -93,13 +93,13 @@ This folder contains all screenshots from the Windows 11 SC-300 Identity & Acces
 - ✅ Access Reviews
 - ✅ Emergency Access (Break-Glass) Strategy
 - ✅ Intune Device Compliance Integration
-
 ---
-
+ 
 ## Repository
-
-**GitHub:** `windows-11-sc300-identity-lab`
-
-**Tenant:** Lani644.onmicrosoft.com
-
-**Lab Duration:** ~2-3 hours
+ 
+**GitHub:** `entra-id-identity-governance-lab`
+ 
+**Environment:** Entra ID P2 and Intune Plan 1 trial tenant (details redacted)
+ 
+> Some object names in these screenshots contain "SC300" because I originally planned this lab around that syllabus. I have not taken that exam, and this repository makes no certification claim.
+ 
